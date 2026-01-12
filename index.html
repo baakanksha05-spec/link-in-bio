@@ -1,34 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html> 
   <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   
   <meta charset="UTF-8">
   <title>Aakanksha Bhardwaj</title>
   <style>
-    *{border: thin yellow solid;
+    html {min-height: 100%;}
+    /*
+    *{border: thin rgb(0, 89, 255) solid;
     }
+    */
+    body{min-height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: linear-gradient(185deg, #003f5b, #194771, #384d85, #5a5093, #7e519c, #a24f9c, #c34c95, #df4d86, #f55572, #ff665a, #ff7e3d, #ff9913);
+    color: rgba(255, 255, 255, 1.0);
+    .item {background-color: (255, 252, 231, 1); border-radius: 1000px; padding: 5x; padding-right: 53px; box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);}
+  }
+  .avatar-image {width: 128px;
+    height: 128px;
+  object-fit: cover;
+border-radius: 128px}
+.thumbnail {width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;}
+  a {
+      color: rgba(255, 255, 255, 1.0); text-decoration: none;
+    }
+
+    .item {background-color: (255, 252, 231, 1);}
+    .main-container {
+  max-width: 640px;
+  margin: auto;
+}
+.image-row {margin-bottom: 20px; text-align: center;}
+.name-row {margin-bottom: 30px; text-align: center; font-family: "Georgia";
+  font-size: 24px;
+  font-weight: 900;}
+.social-icons-row {margin-bottom: 30px; display: flex; justify-content: space-around}
+.item {margin-bottom: 20px; display: flex; align-items: center;}
+.link-text {text-align: center; flex-grow: 1}
   </style>
   </head>
-  <body> hello test
+  <body> 
+    
     <div class ="main container">
       <div class="image-row">
-        Image goes here 
+        <img class="avatar-image" src="Img1.jpg" alt="Aakanksha Bhardwaj headshot"> 
       </div>
+      <div class="name-row">
+      Aakanksha Bhardwaj
+    </div>
       <div class="social-icons-row">
-        Social links go here
+        <a href="https://www.linkedin.com/in/aakanksha-bhardwaj-6b0444120" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn </a>
+          <a href="https://www.instagram.com/aakanksha._.97/?hl=en" target="_blank">
+            <i class="fa-brands fa-square-instagram"></i> Instagram
+          </a>
       </div>
-      <div class="links-row">
+    <div class="links-row">
         <div class="item">
-          First link
+          <img class = "thumbnail" src="Img3.jpg">
+          <a class="link-text" href="https://www.colettevandenthillart.com/" target="_blank"> Interior Design</a> 
         </div>
         <div class="item">
-          Second link
+          <img class = "thumbnail" src="Img4.jpg">
+          <a class="link-text" href="https://www.youtube.com/c/ClaireSaffitzxDessertPerson" target="_blank"> Inspiration for all my dessert ideas</a>
         </div>
         <div class="item">
-          Third link
-        </div>
-        <div class="item">
-          Etc
+          <img class = "thumbnail" src="Img5.jpg">
+          <a class="link-text" href="https://www.travelwithjanice.com/blog/2023/9/7/xmpb7a7wzj4bccz84gvf2f3polayht" target="_blank"> American National Park - An Itinerary</a>
         </div>
       </div>
     </div>
